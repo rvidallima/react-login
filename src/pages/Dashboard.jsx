@@ -1,4 +1,4 @@
-import { logout } from "../utils/auth";
+import { logout } from "../Utils/auth";
 
 export default function Dashboard() {
   function handleLogout() {

@@ -3,16 +3,14 @@ export const MOCK_USER = {
     password: "123456"
   };
   
-  export function login(email, password) {
+export function login(email, password) {
     return email === MOCK_USER.email && password === MOCK_USER.password;
-  }
-  
-  export function isAuthenticated() {
+}
+
+export function isAuthenticated() {
     return localStorage.getItem("auth") === "true";
-  }
-  
-  export function logout() {
+}
+
+export function logout() {
     localStorage.removeItem("auth");
-  }
-  
-  
+}

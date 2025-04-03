@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Login from "./components/login";
 import Dashboard from "./pages/Dashboard";
-import { isAuthenticated } from "./utils/auth";
+import { isAuthenticated } from "./Utils/auth";
 
 export default function App() {
   const [auth, setAuth] = useState(false);
@@ -17,4 +17,5 @@ export default function App() {
     </div>
   );
 }
+
 
